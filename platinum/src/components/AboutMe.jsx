@@ -15,7 +15,7 @@ export default function AboutMe() {
     {
       name: 'Professional Foundations',
       issuer: 'ALX',
-      link: 'https://savanna.alxafrica.com/certificates/9e2BSs5Zhc',
+      link: 'https://savanna.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNUVsSnc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6c77ae9cf05bc719245765b24dce10a9c99cf920/89-professional-foundations-certificate-erick-moti.png',
       logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuu4n2VgSLyv70udhzHGObeyK8CrxZi9YBNQ&s'
     },
     {
