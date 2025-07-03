@@ -101,19 +101,42 @@ export default function Header() {
 
         {/* Social Icons + Hamburger */}
 
-        <div className="flex items-center space-x-4 text-black-600 text-lg">
-          <FaXTwitter className="cursor-pointer hover:text-blue-400" />
-          <FaInstagram className="cursor-pointer hover:text-pink-800" />
-          <FaLinkedin className="cursor-pointer hover:text-blue-800" />
-          <FaGithub className="cursor-pointer hover:text-green-600" />
-          <FaDiscord className="cursor-pointer hover:text-blue-600" />
-          <button
-            onClick={() => setMenuOpen(!menuOpen)}
-            className="text-2xl md:hidden focus:outline-none"
-          >
-            {menuOpen ? <FaTimes /> : <FaBars />}
-          </button>
-        </div>
+          <div className="flex items-center space-x-4 text-black-600 text-lg">
+            <a
+              href="https://x.com/EricMoti65810"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-400"
+            >
+              <FaXTwitter className="cursor-pointer" />
+            </a>
+            <FaInstagram className="cursor-pointer hover:text-pink-800" />
+            <a
+              href="https://www.linkedin.com/in/eric-moti-b77b25246/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-800"
+            >
+              <FaLinkedin className="cursor-pointer" />
+            </a>
+            <a
+              href="https://github.com/Eugene-Moti"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-green-600"
+            >
+              <FaGithub className="cursor-pointer" />
+            </a>
+            <FaDiscord className="cursor-pointer hover:text-blue-600" />
+            <button
+              onClick={() => setMenuOpen(!menuOpen)}
+              className="text-2xl md:hidden focus:outline-none"
+            >
+              {menuOpen ? <FaTimes /> : <FaBars />}
+            </button>
+          </div>
+
+
       </div>
 
       {/* Mobile Dropdown Menu */}
