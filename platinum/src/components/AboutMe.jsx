@@ -10,19 +10,20 @@ export default function AboutMe() {
       issuer: 'ALX',
       link: 'https://savanna.alxafrica.com/certificates/CE8B5fFhN7',
       logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuu4n2VgSLyv70udhzHGObeyK8CrxZi9YBNQ&s'
-
     },
     {
       name: 'Professional Foundations',
       issuer: 'ALX',
       link: 'https://savanna.alxafrica.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNUVsSnc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6c77ae9cf05bc719245765b24dce10a9c99cf920/89-professional-foundations-certificate-erick-moti.png',
-      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuu4n2VgSLyv70udhzHGObeyK8CrxZi9YBNQ&s'
+      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuu4n2VgSLyv70udhzHGObeyK8CrxZi9YBNQ&s',
+      image: '/PRO.png'
     },
     {
-      name: 'Graphic Design',
-      issuer: 'ALX',
-      link: 'https://www.freecodecamp.org/certification/yourusername/responsive-web-design',
-      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuu4n2VgSLyv70udhzHGObeyK8CrxZi9YBNQ&s'
+      name: 'UI / UX for Beginners',
+      issuer: 'GREAT LEARNING',
+      link: 'https://www.mygreatlearning.com/certificate/GCRUXZOP',
+      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuu4n2VgSLyv70udhzHGObeyK8CrxZi9YBNQ&s',
+      image: '/GREAT.png',
     },
     {
       name: 'ALX AI Starter Kit',
@@ -114,9 +115,9 @@ export default function AboutMe() {
                   href={cert.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex flex-col items-center border rounded-lg shadow-md p-6 hover:shadow-xl transition"
+                  className="relative flex flex-col items-center border rounded-lg shadow-md p-6 hover:scale-105 hover:z-10 hover:shadow-2xl transform transition duration-300 hover:glitter"
                 >
-                  <img src={cert.logo} alt={cert.issuer} className="h-16 mb-4 object-contain" />
+                  <img src={cert.image || cert.logo} alt={cert.issuer} className="h-50 w-75 mb-4 object-contain" />
                   <h4 className="text-lg font-bold text-purple-600">{cert.name}</h4>
                   <p className="text-sm text-gray-600">{cert.issuer}</p>
                 </a>
