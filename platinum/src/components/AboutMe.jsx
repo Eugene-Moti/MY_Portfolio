@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaGoogle, FaLaptopCode } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 
 
@@ -52,16 +53,16 @@ export default function AboutMe() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col-reverse lg:flex-row items-center gap-12">
           <div className="flex-1 space-y-6">
             <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
-              Building digital <br />
-              products, brands <br />
+              Building Digital Products, <br />
+              Optimizing Brands & Creating User-Centered <br />
               <span className="inline-flex items-center gap-2">
                 <span className="text-cyan-300">🛠</span>
-                <span className="text-cyan-700">experience.</span>
+                <span className="text-cyan-700">Experiences.</span>
               </span>
             </h1>
             <p className="text-gray-700 text-lg">
-              a <strong>Digital Marketer</strong> and <strong>Web Developer</strong> <br />
-              I specialize in Responsive Web Design, <br />
+              I am a passionate and detail-oriented <strong>Frontend Web Developer</strong> with a strong foundation in <strong>UI/UX design, software development, and digital marketing.</strong> <br />
+              My work focuses on creating intuitive, responsive, and visually appealing web applications while delivering seamless user experiences. I thrive on solving complex problems, collaborating with teams, and continually learning emerging technologies.<br />
               
             </p>
             <div className="flex flex-col sm:flex-row items-center gap-3">
@@ -77,8 +78,7 @@ export default function AboutMe() {
           </div>
           <div className="flex-1 relative">
             <img
-              src="/Screenshot 2025-05-23 231700.png"
-            
+              src="/Me.png"
               alt="designer"
               className="rounded-xl w-full max-w-sm lg:max-w-full object-cover"
             />
@@ -92,18 +92,39 @@ export default function AboutMe() {
           <div className="text-center">
             <h2 className="text-4xl font-extrabold text-cyan-800 mb-4">✨ About Me</h2>
             <p className="text-lg max-w-3xl mx-auto">
-              Passionate developer and designer, turning creative ideas into functional and beautiful digital experiences.
+              I am a passionate and detail-oriented Frontend Web Developer with a strong foundation in UI/UX design, software development, and digital marketing.
+My work focuses on creating intuitive, responsive, and visually appealing web applications while delivering seamless user experiences. I thrive on solving complex problems, collaborating with teams, and continually learning emerging technologies.
             </p>
           </div>
 
-          {/* Education */}
-          <div className="space-y-4">
-            <h3 className="text-2xl font-semibold">🎓 Education Background</h3>
-            <p>
-            I hold a <strong>Bachelor of Science in Information Technology</strong> from <strong> Cooperative University of Kenya, Karen</strong>.
-              I Also have skills in UI/UX, Graphic Design ,Web development,Digital Marketing  (SEO) and interactive web technologies.
-            </p>
-          </div>
+
+{/* Education */}
+<div className="space-y-4 animate-fade-in-up">
+  <h3 className="text-2xl font-semibold flex items-center gap-2">
+    🎓 Education Background
+  </h3>
+  
+  <div className="space-y-3 text-lg">
+    <p>
+      <strong className="text-primary">Bachelor of Science in Information Technology</strong>  
+      <span className="text-gray-600"> — The Co-operative University of Kenya</span>
+    </p>
+    <p>
+      <strong className="text-primary">Pro-Dev Frontend Web Developer</strong>  
+      <span className="text-gray-600"> — ALX</span>
+    </p>
+    <p>
+      <strong className="text-primary">UI/UX Design</strong>  
+      <span className="text-gray-600"> — Great Learning</span>
+    </p>
+    <p>
+      <strong className="text-primary">Kenya Certificate of Secondary Education (B-Plain)</strong>  
+      <span className="text-gray-600"> — Kitonyini High School</span>
+    </p>
+  </div>
+</div>
+
+
 
           {/* Certifications */}
           <div className="space-y-4">
