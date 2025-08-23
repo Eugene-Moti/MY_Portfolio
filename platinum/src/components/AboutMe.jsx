@@ -1,6 +1,5 @@
 import React from 'react'
 import { FaGoogle, FaLaptopCode } from "react-icons/fa";
-import { motion } from "framer-motion";
 
 
 
@@ -10,7 +9,8 @@ export default function AboutMe() {
       name: 'Front-End Web Development',
       issuer: 'ALX',
       link: 'https://savanna.alxafrica.com/certificates/CE8B5fFhN7',
-      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuu4n2VgSLyv70udhzHGObeyK8CrxZi9YBNQ&s'
+      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuu4n2VgSLyv70udhzHGObeyK8CrxZi9YBNQ&s',
+      image: '/85-prodev-frontend-certificate-erick-moti.png'
     },
     {
       name: 'Professional Foundations',
